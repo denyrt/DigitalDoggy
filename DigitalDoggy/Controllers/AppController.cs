@@ -14,7 +14,7 @@ namespace DigitalDoggy.Controllers
         [HttpGet("ping")]
         public IActionResult Ping()
         {
-            return Ok("");
+            return Ok("Dogs house service. Version 1.0.1");
         }
     }
 }
